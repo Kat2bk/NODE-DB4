@@ -19,7 +19,7 @@ const config = {
 module.exports = {
   development: {
     ...config,
-    connection: {filename: ''}
+    connection: {filename: './data/recipes.db3'}
   },
   //testing:
 };
